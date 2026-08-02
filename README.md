@@ -31,24 +31,21 @@ On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal A
 
 ### Experience
 
-**Software Engineer @ Act Digital — Banco BV** (current)
-- **Backend:** Java/Spring Boot microservices and RESTful APIs
-- **Architecture:** BFF pattern, orchestration and messaging (Kafka, GCP Pub/Sub)
-- **Cloud & DevOps:** GCP deployment with Docker, Kubernetes and CI/CD via Jenkins
-- **Governance & Observability:** API security with Apigee and monitoring with Datadog
-- **Data:** Relational and NoSQL database modeling, versioning via Bitbucket and GitHub
+**Vehicle debt (débitos veiculares) platform** (current)
+- Working on a platform that lets drivers query, settle and pay vehicle-related debts — taxes, fines and licensing fees — covering all 27 Brazilian states, each with its own format, rules and government endpoints.
+- Helped integrate a new third-party debt-consultation provider, owning the full flow: consuming their API, normalizing inconsistent data across states, handling provider failures and keeping the customer-facing response reliable.
+- Also contributed to unified checkout and unified onboarding/registration initiatives, consolidating flows that previously lived as separate experiences across the bank.
 
-**Full Stack Developer @ DBC — Banking client** (after promotion)
-- Allocated to a banking project, working on high-availability financial systems
-- Backend development with Java and Spring Boot microservices on mission-critical operations
-- Hands-on with relational database modeling and versioning via Git
+**Split payment with tax withholding**
+- Worked on a split payment feature where each transaction had to split its value across multiple payees while withholding the taxes due (PIS, COFINS, CSLL and IRRF), per Brazilian fiscal rules that change depending on the payee's tax regime and the operation type.
+- Implemented the per-payee retention logic, computing the withheld taxes (PIS, COFINS, CSLL, IRRF) based on each receiver's tax profile and determining each one's net share.
+- Ensured financial consistency across every split — gross-to-net reconciliation and monetary precision — so the retained, settled and reported amounts matched at the end of the flow.
 
-**Full Stack Developer @ DBC — Capacity program** (intern → hire)
-- Selected for an intensive Full Stack capacity program building complete web applications from backend to frontend in a simulated agile environment
-- Built REST APIs with Java and Spring Boot: endpoints, business logic and database integration (PostgreSQL/H2)
-- Developed modern interfaces with Angular and React, creating reusable components and consuming APIs
-- Applied JPA/Hibernate for ORM and data persistence
-- Worked with agile methodologies (Scrum/Kanban) using Jira and Git
+**Digital accessibility event platform**
+- Built end-to-end the platform that powered one of the company's real digital accessibility events, from attendee registration to post-event delivery.
+- Full attendee lifecycle: registration, updates and management of participants, plus a listing of available sessions people could enroll in.
+- AI-powered chat that answered attendees' questions about the event and the platform itself, helping them navigate registration, schedule and content.
+- Automated certificate generation and delivery to attendees after the event, and an email notification flow that kept participants informed at every stage.
 
 ---
 
@@ -64,7 +61,7 @@ On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal A
 <code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"></code>
 <code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg" alt="Angular"></code>
 <code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python"></code>
+<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="Redis"></code>
 ---
 
 <div align="center">
