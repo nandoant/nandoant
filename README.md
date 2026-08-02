@@ -31,15 +31,15 @@ On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal A
 
 ### Experience
 
-**Vehicle debt (débitos veiculares) platform** (current)
-- Working on a platform that lets drivers query, settle and pay vehicle-related debts — taxes, fines and licensing fees — covering all 27 Brazilian states, each with its own format, rules and government endpoints.
+**Vehicle debt platform** (current)
+- Working on a platform that lets drivers query, settle and pay vehicle-related taxes, fines and licensing fees across all 27 Brazilian states, each with its own format, rules and government endpoints.
 - Helped integrate a new third-party debt-consultation provider, owning the full flow: consuming their API, normalizing inconsistent data across states, handling provider failures and keeping the customer-facing response reliable.
 - Also contributed to unified checkout and unified onboarding/registration initiatives, consolidating flows that previously lived as separate experiences across the bank.
 
 **Split payment with tax withholding**
 - Worked on a split payment feature where each transaction had to split its value across multiple payees while withholding the taxes due (PIS, COFINS, CSLL and IRRF), per Brazilian fiscal rules that change depending on the payee's tax regime and the operation type.
 - Implemented the per-payee retention logic, computing the withheld taxes (PIS, COFINS, CSLL, IRRF) based on each receiver's tax profile and determining each one's net share.
-- Ensured financial consistency across every split — gross-to-net reconciliation and monetary precision — so the retained, settled and reported amounts matched at the end of the flow.
+- Ensured financial consistency across every split through gross-to-net reconciliation and monetary precision, so the retained, settled and reported amounts matched at the end of the flow.
 
 **Digital accessibility event platform**
 - Built end-to-end the platform that powered one of the company's real digital accessibility events, from attendee registration to post-event delivery.
