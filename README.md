@@ -5,7 +5,7 @@
 **Software Engineer · Java & Spring Boot**
 
 Backend engineer focused on high-availability financial systems. Java & Spring Boot
-background, working with Cloud (GCP/AWS) on mission-critical products.
+background, working with Cloud on mission-critical products.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/dev-fernando-antonio/)
 
@@ -15,7 +15,7 @@ background, working with Cloud (GCP/AWS) on mission-critical products.
 
 ### Currently
 
-Building backend services for the financial sector at **Act Digital**, working on mission-critical products for clients such as **Banco BV**. My work covers investments, vehicle debts (débitos veiculares), authentication and security features, plus active participation in system architecture, modularization, CI/CD and technical-debt refactoring on high-scale financial applications.
+Building backend services for the financial sector at **Act Digital**, working on mission-critical products for clients such as **Banco BV**. My work covers investments and vehicle debts (débitos veiculares), plus active participation in system architecture, modularization, CI/CD and technical-debt refactoring on high-scale financial applications.
 
 On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal Architecture, SAGA & Outbox patterns, CQRS, Kafka, Kubernetes and Spring AI.
 
@@ -33,7 +33,7 @@ On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal A
 
 **Vehicle debt platform** (current)
 - Working on a platform that lets drivers query, settle and pay vehicle-related taxes, fines and licensing fees across all 27 Brazilian states, each with its own format, rules and government endpoints.
-- Helped integrate a new third-party debt-consultation provider, owning the full flow: consuming their API, normalizing inconsistent data across states, handling provider failures and keeping the customer-facing response reliable.
+- Helped integrate a new third-party debt-consultation provider, owning the full flow: consuming their API, working with inconsistent data formats across states, and keeping the customer-facing response reliable.
 - Also contributed to unified checkout and unified onboarding/registration initiatives, consolidating flows that previously lived as separate experiences across the bank.
 
 **Split payment with tax withholding**
