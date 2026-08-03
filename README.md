@@ -4,8 +4,7 @@
 
 **Software Engineer · Java & Spring Boot**
 
-Backend engineer focused on high-availability financial systems. Java & Spring Boot
-background, working with Cloud on mission-critical products.
+Backend engineer in **high-availability financial systems**. Java & Spring Boot, Cloud.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/dev-fernando-antonio/)
 
@@ -15,9 +14,9 @@ background, working with Cloud on mission-critical products.
 
 ### Currently
 
-Building backend services for the financial sector at **Act Digital**, working on mission-critical products for clients such as **Banco BV**. My work covers investments and vehicle debts (débitos veiculares), plus active participation in system architecture, modularization, CI/CD and technical-debt refactoring on high-scale financial applications.
+**Backend Engineer @ Act Digital**, working on products for clients such as **Banco BV**.
 
-On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal Architecture, SAGA & Outbox patterns, CQRS, Kafka, Kubernetes and Spring AI.
+Focus areas: **investments**, **vehicle debts** and system architecture initiatives (modularization, CI/CD, technical-debt refactoring).
 
 ---
 
@@ -25,27 +24,27 @@ On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal A
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| **[food-ordering-saga-system](https://github.com/nandoant/food-ordering-saga-system)** | Food ordering platform implementing the SAGA choreography pattern with Kafka for inter-service communication and the Outbox pattern for reliable event publishing | Java · Spring Boot · Kafka · Docker · Microservices |
+| **[food-ordering-saga-system](https://github.com/nandoant/food-ordering-saga-system)** | **SAGA choreography** + **Outbox pattern** with Kafka for reliable inter-service communication | Java · Spring Boot · Kafka · Docker |
 
 ---
 
 ### Experience
 
 **Vehicle debt platform** (current)
-- Working on a platform that lets drivers query, settle and pay vehicle-related taxes, fines and licensing fees across all 27 Brazilian states, each with its own format, rules and government endpoints.
-- Helped integrate a new third-party debt-consultation provider, owning the full flow: consuming their API, working with inconsistent data formats across states, and keeping the customer-facing response reliable.
-- Also contributed to unified checkout and unified onboarding/registration initiatives, consolidating flows that previously lived as separate experiences across the bank.
+- **All 27 Brazilian states**: query, settle and pay vehicle taxes, fines and licensing fees
+- Integrated a new **third-party debt-consultation provider**, handling API consumption, data normalization across states and failure handling
+- Contributed to **unified checkout** and **unified onboarding** initiatives
 
 **Split payment with tax withholding**
-- Worked on a split payment feature where each transaction had to split its value across multiple payees while withholding the taxes due (PIS, COFINS, CSLL and IRRF), per Brazilian fiscal rules that change depending on the payee's tax regime and the operation type.
-- Implemented the per-payee retention logic, computing the withheld taxes (PIS, COFINS, CSLL, IRRF) based on each receiver's tax profile and determining each one's net share.
-- Ensured financial consistency across every split through gross-to-net reconciliation and monetary precision, so the retained, settled and reported amounts matched at the end of the flow.
+- Split transactions across multiple payees **while withholding taxes** (PIS, COFINS, CSLL, IRRF) per Brazilian fiscal rules
+- Implemented the **per-payee retention logic** with the correct rate per tax regime and net share per receiver
+- Ensured **gross-to-net reconciliation** and monetary precision across every split
 
 **Digital accessibility event platform**
-- Built end-to-end the platform that powered one of the company's real digital accessibility events, from attendee registration to post-event delivery.
-- Full attendee lifecycle: registration, updates and management of participants, plus a listing of available sessions people could enroll in.
-- AI-powered chat that answered attendees' questions about the event and the platform itself, helping them navigate registration, schedule and content.
-- Automated certificate generation and delivery to attendees after the event, and an email notification flow that kept participants informed at every stage.
+- **End-to-end platform** powering a real digital accessibility event
+- Full attendee lifecycle: registration, sessions enrollment, management
+- **AI-powered chat** answering attendees' questions
+- Automated **certificate generation/delivery** and email notifications
 
 ---
 
@@ -66,6 +65,6 @@ On the side, I'm going deeper into distributed systems: DDD, Clean & Hexagonal A
 
 <div align="center">
 
-<sub>The only place success comes before work is in the dictionary. — Vince Lombardi</sub>
+<sub>The harder I work, the luckier I get. — Samuel Goldwyn</sub>
 
 </div>
