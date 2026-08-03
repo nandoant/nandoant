@@ -4,7 +4,7 @@
 
 **Software Engineer · Java & Spring Boot**
 
-Backend engineer in **high-availability financial systems**. Java & Spring Boot, Cloud.
+Backend engineer focused on **high-availability financial systems**. Java & Spring Boot background, working with Cloud on mission-critical products.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/dev-fernando-antonio/)
 
@@ -14,9 +14,9 @@ Backend engineer in **high-availability financial systems**. Java & Spring Boot,
 
 ### Currently
 
-**Backend Engineer @ Act Digital**, working on products for clients such as **Banco BV**.
+**Backend Engineer @ Act Digital**, working on mission-critical financial products for clients such as **Banco BV**.
 
-Focus areas: **investments**, **vehicle debts** and system architecture initiatives (modularization, CI/CD, technical-debt refactoring).
+My focus areas are **investments** and **vehicle debts**, plus active participation in system architecture initiatives like modularization, CI/CD and technical-debt refactoring on high-scale applications.
 
 ---
 
@@ -31,20 +31,20 @@ Focus areas: **investments**, **vehicle debts** and system architecture initiati
 ### Experience
 
 **Vehicle debt platform** (current)
-- **All 27 Brazilian states**: query, settle and pay vehicle taxes, fines and licensing fees
-- Integrated a new **third-party debt-consultation provider**, handling API consumption, data normalization across states and failure handling
-- Contributed to **unified checkout** and **unified onboarding** initiatives
+- Working on a platform that lets drivers query, settle and pay vehicle-related taxes, fines and licensing fees across **all 27 Brazilian states**, each with its own format, rules and government endpoints.
+- Integrated a new **third-party debt-consultation provider**, owning the full flow from API consumption to data normalization across states, keeping the customer-facing response reliable even when the provider fails.
+- Contributed to **unified checkout** and **unified onboarding** initiatives, consolidating flows that previously lived as separate experiences across the bank.
 
 **Split payment with tax withholding**
-- Split transactions across multiple payees **while withholding taxes** (PIS, COFINS, CSLL, IRRF) per Brazilian fiscal rules
-- Implemented the **per-payee retention logic** with the correct rate per tax regime and net share per receiver
-- Ensured **gross-to-net reconciliation** and monetary precision across every split
+- Worked on a split payment feature where each transaction had to split its value across multiple payees **while withholding taxes** (PIS, COFINS, CSLL, IRRF), per Brazilian fiscal rules that change depending on the payee's tax regime and the operation type.
+- Implemented the **per-payee retention logic** with the correct rate per tax regime, determining each receiver's net share.
+- Ensured **gross-to-net reconciliation** and monetary precision across every split, so the retained, settled and reported amounts matched at the end of the flow.
 
 **Digital accessibility event platform**
-- **End-to-end platform** powering a real digital accessibility event
-- Full attendee lifecycle: registration, sessions enrollment, management
-- **AI-powered chat** answering attendees' questions
-- Automated **certificate generation/delivery** and email notifications
+- Built end-to-end the platform that powered one of the company's real **digital accessibility events**, from attendee registration to post-event delivery.
+- Full attendee lifecycle: registration, session enrollment and management of participants.
+- **AI-powered chat** that answered attendees' questions about the event and the platform itself, helping them navigate schedule and content.
+- Automated **certificate generation/delivery** and an email notification flow that kept participants informed at every stage.
 
 ---
 
